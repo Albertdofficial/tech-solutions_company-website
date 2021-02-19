@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+#title{
+    background-color: #383e56;
+    color: #fff;
+}
+/* nav bar section */
+/* Navgation BAr */
+.navbar{
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav{
+    padding-top: 0;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+  }
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h2-title{
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5; 
+}    
+.title-image{
+    width: 70%;
+    margin-left: 25%;
+    border-radius: 5%;
+}
+ /* Services Section */
+#services{
+  margin-top: 0;
+  background-color: #fff;
+  padding: 7% 16%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#services p{
+    font-size: 2.5rem;
+}
+#services h3{
+    margin-top: 3%;
+}
+
+.services-list{
+    font-size: 1.5rem;
+}
+ /* Testimonials Section */
+#testimonials{
+    background-color:#03506f;
+    color: #fff;
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+.carousel-item {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5rem 0 ;
+
+} 
+
+ /* Contacts Section */
+
+ #contacts{
+    text-align: center;
+     padding: 5% 7%;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #contacts h1{
+     margin-bottom: 2%;
+ }
+
+    /* Footer Section */
+#footer{
+    background-color: #202020;
+    color: #fff;
+}
+.social-media{
+    list-style-type: none;
+	display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.social-media a{
+    padding: 15px;
+    display:inline-block;
+    color: #fff;
+}
+a:hover{
+    color: crimson;
+}
+#footer p{
+    text-align: center;
+    padding: 1%;
+}
+
+ /* Media queries */
+@media screen and (max-width: 1250px){
+    .heading{
+        flex-direction: column;
+    }
+    .h2-title{
+        font-size: 2rem;
+        padding-bottom: 5%;
+    }
+    .title-image{
+        margin-left: 0;
+    }
+    #services p{
+        font-size: 1.25rem;
+    }
+    
+    .services-list{
+        font-size: 1rem;
+    }
+    #testimonials{
+        padding: 0;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .title-image{
+        border-top: 1px solid #fff;
+    }
+}
